@@ -1,0 +1,8 @@
+UPDATE INSTRUCTIONS
+
+1. Take a note of your database information (hostname, database name, database user and database password)
+2. Replace all the files and folders with the files and folders of new version except 'uploads' folder
+3. Go to application > config > database.php and replace db_host, db_user, db_name, db_pass with your previously saved hostname, database user, database name and database password
+4. Go to application > config > routes.php and change default controller from 'install' to 'login'
+
+If you face any issues while updating the application, leave us a support ticket at http://support.creativeitem.com
